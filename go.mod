@@ -7,5 +7,6 @@ require (
 	github.com/coredns/coredns v1.8.4
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/miekg/dns v1.1.42
+	github.com/pierrec/lz4 v2.0.5+incompatible // indirect
 	golang.org/x/net v0.0.0-20210525063256-abc453219eb5
 )
