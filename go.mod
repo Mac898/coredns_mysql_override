@@ -1,4 +1,4 @@
-module github.com/cloud66-oss/coredns_mysql
+module github.com/Mac898/coredns_mysql_override
 
 go 1.16
 
