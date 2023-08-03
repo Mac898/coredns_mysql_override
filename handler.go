@@ -52,7 +52,7 @@ func (handler *CoreDNSMySql) ServeDNS(ctx context.Context, w dns.ResponseWriter,
 	var appendSOA bool
 	if len(records) == 0 {
 		// Fallthrough first.
-		return plugin.NextOrFailure(h.Name(), h.Next, ctx, w, r)
+		return plugin.NextOrFailure(handler.Name(), handler.Next, ctx, w, r)
 
 		// Then if it don't work, send back an SOA.
 		appendSOA = true
